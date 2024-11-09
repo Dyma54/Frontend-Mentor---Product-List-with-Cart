@@ -1,0 +1,15 @@
+@import '../../../scss/colors.scss'; 
+@import '../../../scss/functions.scss'; 
+
+.removeProductBtn{
+    width: rem(20);
+    height: rem(20);
+    border-radius: 100%;
+    border: 1px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: $rose-100;
+}

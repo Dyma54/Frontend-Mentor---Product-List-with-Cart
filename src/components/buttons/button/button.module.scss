@@ -1,0 +1,25 @@
+@import '../../../scss/colors.scss'; 
+@import '../../../scss/functions.scss'; 
+
+.button{
+    width: rem(162.75);
+
+    color: rgb(0, 0, 0); 
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 2rem;
+    padding: .5rem;
+
+    border: rem(1) solid $rose-900;
+
+    margin-top: -1.7rem;
+
+    @media (width >= 60em) {
+        &{
+            width: 80%;
+        }
+    }
+}

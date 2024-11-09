@@ -1,0 +1,18 @@
+#root {
+  width: 100vw;
+  min-height: min-content;
+
+  padding: 2rem;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+
+  @media (width >= 60em){
+    grid-template-columns: 65% 35%;
+  }
+}
+
+h1{
+  font-size: 2rem; 
+}

@@ -1,0 +1,64 @@
+@import '../../../scss/colors.scss'; 
+@import '../../../scss/functions.scss'; 
+
+.productItem{
+    padding-block: 1rem;
+}
+
+.productItem .productContainer picture img{
+    border-radius: rem(5px);
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.productContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageBorder{
+    border: rem(3) solid $red;
+}
+
+.quantityProductButton{
+    background-color: $red;
+}
+
+.quantityProductButton span{
+    color: white;
+}
+
+.basketContainer{
+    cursor: pointer;
+    background-color: white;
+}
+
+.quantityProductButton .minus, 
+.quantityProductButton .plus{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+
+    cursor: pointer;
+
+    margin: 0 1rem;
+}
+
+
+.infosProduct{
+    padding-block: .5rem;
+}
+
+.productCategory{
+    opacity: .7;
+}
+
+.productName{
+    font-weight: 500;
+}
+.productPrice{
+    color: $red;
+}

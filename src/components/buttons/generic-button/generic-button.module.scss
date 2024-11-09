@@ -1,0 +1,14 @@
+@import '../../../scss/colors.scss';
+@import '../../../scss/functions.scss';
+
+.genericButton{
+    cursor: pointer;
+    background-color: $red;
+    color: white;
+    border: 0;
+    border-radius: 2rem;
+    width: 100%;
+    height: 7vh;
+    line-height: 1;
+    margin-top: 2rem;
+}

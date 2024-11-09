@@ -1,0 +1,87 @@
+@import '../../../scss/colors.scss'; 
+@import '../../../scss/functions.scss'; 
+
+.cart{
+    background-color: white;
+    border-radius: rem(5px);
+    padding: 1.5rem;
+    height: min-content;
+}
+
+.cartList li{
+    border-bottom: rem(1) solid rgba($color: #000000, $alpha: .3);
+    padding-top: 1rem;
+}
+
+.cartList .productDetails{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.cart .cartTitle, 
+.cartList .productQuantity{
+    color: $red;
+}
+
+.cartList .productName, 
+.cartList .productQuantity{
+    font-weight: 500;
+}
+
+.cartList .productQuantity{
+    margin-right: 1rem;
+}
+
+.cartList .productPrice{
+    opacity: .5;
+}
+
+.cartList .removeProductBtn{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 1px solid black;    
+}
+
+.emptyCartContainer  p {
+    text-align: center;
+}
+
+.confirmOrderContainer .orderTotalContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.orderTotalContainer .total{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.carbonContainer{
+    background-color: rgba($color: $Rose--300, $alpha: .1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    border-radius: rem(5);
+    margin-top: 2rem;
+    
+    @media (width >= 60em) {
+        &{
+            font-size: .7rem;
+        }
+    }
+}
+
+.carbonContainer span{
+    font-weight: 500;
+}
+
+.carbonContainer img{
+    margin-right: 1rem;
+}
+
+
+
