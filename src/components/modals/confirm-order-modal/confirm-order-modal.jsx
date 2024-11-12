@@ -65,7 +65,10 @@ export default function ConfirmOrderModal() {
         <footer>
           <GenericButton
             text="Start New Order"
-            onClick={clearCart}
+            onClick={() => {
+              clearCart()
+              onClose()
+            }}
           />
         </footer>
       </section>
