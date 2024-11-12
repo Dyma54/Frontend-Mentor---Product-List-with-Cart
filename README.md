@@ -14,8 +14,8 @@ The challenge was to create a responsive product list with a functional shopping
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/Dyma54/Frontend-Mentor---Product-List-with-Cart)
+- Live Site URL: [Vercel](https://frontend-mentor-product-list-with-cart-three.vercel.app/)
 
 ## My Process
 

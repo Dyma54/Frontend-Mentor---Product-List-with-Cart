@@ -19,8 +19,8 @@ export default function ConfirmOrderModal() {
   }, [isOpen])
 
   return createPortal(
-    <div className={styles.confirmOrderModal} onClick={onClose}>
-      <section className={styles.confirmOrderContainer}>
+    <div className={styles.confirmOrderContainer} onClick={onClose}>
+      <section className={styles.confirmOrderModal} onClick={(event) => event.stopPropagation()}>
         <header className={styles.confirmOrderHeader}>
           <img src={orderConfirmedIcon} alt="Order confirmed icon" />
           <h1>Order confirmed</h1>

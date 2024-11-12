@@ -67,10 +67,17 @@
     padding: .5rem;
     border-radius: rem(5);
     margin-top: 2rem;
-    
-    @media (width >= 60em) {
+
+    @media (width < 500px){
         &{
             font-size: .7rem;
+        }
+    }
+
+
+    @media (min-width: 960px ) and (max-width: 1191px){
+        &{
+            font-size: .75rem;
         }
     }
 }
